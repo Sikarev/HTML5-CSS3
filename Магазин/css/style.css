@@ -145,7 +145,7 @@ header>video {
 	text-transform: capitalize;
 }
 
-.form-group input {
+.form-control {
 	border-width: 1px;
 	border-color:  #d9dee1;
 	border-style: solid;
