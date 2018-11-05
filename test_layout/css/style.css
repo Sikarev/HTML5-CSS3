@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,500,600,700,800|Roboto');
+
+
+* {
+	margin: 0;
+}
+
+body {
+	margin: 0 auto;
+	font-family: Raleway;
+	background-color: #424240;
+}
+
+.heading {
+	min-height: 804px;
+}
+
+.bg-video {
+	display: flex;
+	justify-content: center;
+}
+
+.heading video {
+	position: absolute;
+	z-index: -1;
+	top: 0%;
+	height: 854px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	justify-content: space-around;
+}
+
+.container a:hover svg path {
+	fill: #c7b29a;
+}
+
+.logo {
+	display: inline-block;
+	margin-right: 120px;
+}
+
+.logo svg {
+	font-size: 30px;
+	font-family: "Raleway";
+	font-weight: 400;
+	fill: rgb(255,255,255);
+}
+
+nav {
+	display: inline-block;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 30px;
+}
+
+.menu li a {
+	font-family: Montserrat;
+	text-decoration: none;
+	text-transform: capitalize;
+	color:  #ffffff;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+}
+
+.menu li a:hover {
+	color: #c7b29a;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 180px;
+}
+
+.slogan {
+	width: 580px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.slogan h3 {
+	color:  #ffffff;
+	font-size: 36px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+}
+
+.slogan h1 {
+	color:  #ffffff;
+	font-size: 52px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	margin-top: 14px;
+}
+
+.slogan p {
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 24px;
+	margin-top: 19px;
+	text-align: center;
+}
+
+.slogan a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 23px;/* Приближение из-за подстановки шрифтов */
+	border-radius: 3px;
+	background-color:  #998675;
+	width: 170px;
+	height: 53px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 52px;
+}
+
+#slider-radio {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	padding-bottom: 40px;
+	align-items: center;
+	height: 15px;
+}
+
+#slider-radio input {
+	display: none;
+}
+
+#slider-radio label {
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color:  #ffffff;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+
+#slider-radio input:checked + label {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #d3c1ad;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0);
+	width: 15px;
+	height: 15px;
+}
